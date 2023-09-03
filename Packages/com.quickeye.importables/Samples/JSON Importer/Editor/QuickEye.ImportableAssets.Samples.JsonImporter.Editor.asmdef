@@ -1,0 +1,20 @@
+{
+    "name": "QuickEye.ImportableAssets.Samples.JsonImporter.Editor",
+    "rootNamespace": "QuickEye.ImportableAssets.Samples.JsonImporter.Editor",
+    "references": [
+        "GUID:adcd8342286544ab9f16cecbcc192754",
+        "GUID:9ff3950435312416baebf28bd9d1187a",
+        "GUID:f194e6557da8b478dadaa36da814ad33"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

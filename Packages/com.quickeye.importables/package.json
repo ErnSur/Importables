@@ -1,0 +1,19 @@
+{
+  "name": "com.quickeye.importables",
+  "author": "Quick Eye",
+  "version": "0.1.0",
+  "displayName": "Importables",
+  "description": "Library with a purpose of making Scriptable Importers quicker and easier to make.",
+  "samples": [
+    {
+      "displayName": "JSON Importer",
+      "description": "Example of a JSON scripted importer",
+      "path": "Samples~/JSON Importer"
+    },
+    {
+      "displayName": "CSV Importer",
+      "description": "Example of a CSV scripted importer",
+      "path": "Samples~/CSV Importer"
+    }  
+  ]
+}

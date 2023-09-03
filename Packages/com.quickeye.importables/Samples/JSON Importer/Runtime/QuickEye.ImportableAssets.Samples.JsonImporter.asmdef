@@ -1,0 +1,14 @@
+{
+    "name": "QuickEye.ImportableAssets.Samples.JsonImporter",
+    "rootNamespace": "QuickEye.ImportableAssets.Samples.JsonImporter",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

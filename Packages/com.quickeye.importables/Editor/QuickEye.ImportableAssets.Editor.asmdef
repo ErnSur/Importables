@@ -1,0 +1,20 @@
+{
+  "name": "QuickEye.ImportableAssets.Editor",
+  "rootNamespace": "QuickEye.ImportableAssets.Editor",
+  "references": [
+    "GUID:adcd8342286544ab9f16cecbcc192754"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

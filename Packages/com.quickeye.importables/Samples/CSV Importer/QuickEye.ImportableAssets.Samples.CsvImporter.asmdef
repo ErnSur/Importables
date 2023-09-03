@@ -1,0 +1,19 @@
+{
+    "name": "QuickEye.ImportableAssets.Samples.CsvImporter",
+    "rootNamespace": "QuickEye.ImportableAssets.Samples.CsvImporter",
+    "references": [
+        "GUID:adcd8342286544ab9f16cecbcc192754",
+        "GUID:9ff3950435312416baebf28bd9d1187a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

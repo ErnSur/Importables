@@ -1,0 +1,17 @@
+{
+    "name": "QuickEye.ImportableAssets",
+    "rootNamespace": "QuickEye.ImportableAssets",
+    "references": [],
+    "includePlatforms": [
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
