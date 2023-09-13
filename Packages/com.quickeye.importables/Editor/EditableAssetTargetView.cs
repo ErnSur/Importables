@@ -51,10 +51,14 @@ namespace QuickEye.ImportableAssets.Editor
 
         public void OnDestroy()
         {
-            Object.DestroyImmediate(_editor);
+            if (_editor != null)
+                Object.DestroyImmediate(_editor);
+            if (TargetClones == null)
+                return;
             foreach (var tempSo in TargetClones)
             {
-                Object.DestroyImmediate(tempSo);
+                if (tempSo != null)
+                    Object.DestroyImmediate(tempSo);
             }
         }
     }

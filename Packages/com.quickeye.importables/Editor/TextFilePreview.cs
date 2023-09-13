@@ -21,6 +21,7 @@ namespace QuickEye.ImportableAssets.Editor
 
         public override void Initialize(Object[] targets)
         {
+            
             base.Initialize(targets);
             if (targets == null || targets.Length == 0)
                 return;

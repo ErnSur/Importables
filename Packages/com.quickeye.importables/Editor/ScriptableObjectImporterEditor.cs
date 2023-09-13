@@ -32,6 +32,14 @@ namespace QuickEye.ImportableAssets.Editor
             SetUp();
         }
 
+        public override void OnDisable()
+        {
+            base.OnDisable();
+#if UNITY_2021_1_OR_NEWER
+            textPreview.Cleanup();
+#endif
+        }
+
         private void SetUp()
         {
             foreach (var importer in targets.OfType<ScriptableObjectImporter>())
