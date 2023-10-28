@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using Newtonsoft.Json;
 
 namespace QuickEye.ImportableAssets.Editor
 {
@@ -10,7 +11,9 @@ namespace QuickEye.ImportableAssets.Editor
     {
         public EditorJsonSerializer()
         {
-            Settings.ContractResolver = new EditorContractResolver();
+            Settings.Converters.Clear();
+            Settings.Converters.Add(new EditorUnityObjectConverter());
+            Settings.NullValueHandling = NullValueHandling.Include;
         }
     }
 }

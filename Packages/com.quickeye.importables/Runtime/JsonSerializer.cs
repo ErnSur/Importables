@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using UnityEngine;
@@ -11,12 +12,14 @@ namespace QuickEye.ImportableAssets
     /// </summary>
     public class JsonSerializer : TextSerializer
     {
-        public JsonSerializerSettings Settings { get; set; } =
-            new JsonSerializerSettings
+        public JsonSerializerSettings Settings { get; set; } = new JsonSerializerSettings
+        {
+            Converters = new List<JsonConverter>
             {
-                Error = HandleError,
-                ContractResolver = new RuntimeContractResolver()
-            };
+                new RuntimeUnityObjectConverter()  
+            },
+            ContractResolver = new UnityObjectContractResolver()
+        };
 
         public override Object FromText(string text, Type objectType)
         {
@@ -35,7 +38,7 @@ namespace QuickEye.ImportableAssets
             var ex = e.ErrorContext.Error;
             if (ex is JsonSerializationException && ex.Message.Contains("Cannot deserialize the current "))
             {
-                Debug.Log($"Hmmm {ex}");
+                Debug.Log($"{ex}");
                 e.ErrorContext.Handled = true;
             }
         }

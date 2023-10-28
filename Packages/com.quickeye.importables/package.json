@@ -1,7 +1,7 @@
 {
   "name": "com.quickeye.importables",
   "author": "Quick Eye",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "displayName": "Importables",
   "description": "Library with a purpose of making Scriptable Importers quicker and easier to make.",
   "samples": [
