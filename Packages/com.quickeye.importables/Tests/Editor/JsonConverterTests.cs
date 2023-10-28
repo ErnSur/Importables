@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using NUnit.Framework;
+using UnityEditor;
 using UnityEngine;
 
 namespace QuickEye.ImportableAssets.Editor.Tests
@@ -21,9 +22,9 @@ namespace QuickEye.ImportableAssets.Editor.Tests
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
-            _asset = Resources.Load<ScriptableObject>("Dog");
+            _asset = AssetDatabase.LoadAssetAtPath<ScriptableObject>("Packages/com.quickeye.importables/Tests/Editor/Assets/TestSo.asset");
         }
-        
+
         [TestCaseSource(nameof(UnityObjectConverters))]
         public void Should_DeserializeUnityObjects(JsonConverter unityObjectJsonConverter)
         {

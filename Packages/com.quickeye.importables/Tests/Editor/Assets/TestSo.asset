@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985f34fdbe444d44bbb580fd7f304a42, type: 3}
-  m_Name: TestSo 3
+  m_Name: TestSo
   m_EditorClassIdentifier: 
   asset1: {fileID: 0}
