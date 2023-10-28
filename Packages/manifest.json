@@ -1,7 +1,11 @@
 {
+  "testables": [
+    "com.quickeye.importables"
+  ],
   "dependencies": {
     "com.quickeye.utility": "https://github.com/ErnSur/QuickEye-Utility.git",
     "com.unity.ide.rider": "3.0.24",
+    "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.unity.test-framework": "1.1.33",
     "com.unity.ugui": "1.0.0",
