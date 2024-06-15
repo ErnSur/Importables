@@ -14,6 +14,9 @@
       "displayName": "CSV Importer",
       "description": "Example of a CSV scripted importer",
       "path": "Samples~/CSV Importer"
-    }  
-  ]
+    }
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
 }
